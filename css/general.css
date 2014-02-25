@@ -55,7 +55,7 @@ h1 {
     font-weight: normal;
     font-size: 4rem;
     line-height:4rem;
-    color:white
+    color:white;
 }
 
 .bucks {
@@ -64,7 +64,7 @@ h1 {
     background-color:white;
     background-repeat:repeat;
     background-size:100rem;
-    background-position: center center;
+    background-position:center center;
     overflow:hidden;
 }
 
@@ -72,8 +72,10 @@ h2 {
     margin:0;
     overflow:hidden;
     color:white;
-    font-family:Helvetica Narrow, sans-serif; 
-    
+    font-family:Helvetica Narrow, sans-serif;
+    font-weight:normal;
+    font-size:1.5rem;
+    line-height:1.5rem;
 }
 
 figure {
@@ -84,7 +86,8 @@ figure {
 figcaption {
     font-size: .90rem;
     margin:0;
-    color:white;
+    color:green;
+    background-color:white;
 }
 
 h3 {
@@ -118,7 +121,7 @@ footer {
 }
 
 hr {
-    color:white;
+    color:black;
     margin-top:1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -153,8 +156,17 @@ li {
     height: 100%;
 }
 
+footer {
+    background-color: white;
+    overflow:hidden; 
+}
+
 footer p {
     font-size: .75rem;
-    margin:.5rem 5% 5rem;
-    color:green;
+    margin: .5rem 5% 5rem;
+    color: green;
+}
+
+footer a {
+    color: green;
 }
