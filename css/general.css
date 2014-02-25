@@ -59,12 +59,16 @@ h1 {
 }
 
 .bucks {
-    background-image:url(coffeebean.jpg);
-    background-color:white;
-    background-repeat:repeat;
-    background-size:100rem;
-    background-position:center center;
+     margin:0 5% 3rem;
     overflow:hidden;
+    
+    background-color: black;
+    background-image: url(coffeebean.jpg);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position: center center;
+    
+    box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .2);
 }
 
 blockquote {
@@ -99,10 +103,11 @@ blockquote p:after {
     margin: .2rem 0 0;
 }
 
-
 figure {
+    margin-top:1.5rem;
     margin: 0 auto 1.5rem;
     width:100%
+    
 }
 
 figcaption {
